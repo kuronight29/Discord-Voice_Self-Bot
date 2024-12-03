@@ -11,6 +11,9 @@ client.on('ready', async () => {
     guildId: id_guild,
     adapterCreator: channel.guild.voiceAdapterCreator,
   });
+  const connection = await channel.join();
+  connection.voice.setSelfDeaf(true); // Set to deafened
+  connection.voice.setSelfMute(true); // Set to muted
 })
 
 client.login(token);
