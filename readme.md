@@ -6,6 +6,18 @@
 2. **Tải code** về máy.
 3. **Mở terminal** trong thư mục project và chạy lệnh:
 
+```
+npm install discord.js-selfbot-v13
+npm i @discordjs/voice
+```
+
+4. **Chạy chương trình** để chạy chương trình hãy chạy lệnh:
+
+```
+node .
+```
+
+
 ## Cấu hình bot trong file `config.json`:
 
 - `token`: Token của tài khoản Discord.
